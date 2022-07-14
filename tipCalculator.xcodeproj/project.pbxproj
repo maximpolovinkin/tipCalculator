@@ -13,6 +13,7 @@
 		32D3FD3428803F1700DFF6C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32D3FD3228803F1700DFF6C3 /* Main.storyboard */; };
 		32D3FD3628803F1800DFF6C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32D3FD3528803F1800DFF6C3 /* Assets.xcassets */; };
 		32D3FD3928803F1800DFF6C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32D3FD3728803F1800DFF6C3 /* LaunchScreen.storyboard */; };
+		32D3FD432880714500DFF6C3 /* ResultVievControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D3FD422880714500DFF6C3 /* ResultVievControllerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		32D3FD3528803F1800DFF6C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32D3FD3828803F1800DFF6C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32D3FD3A28803F1800DFF6C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32D3FD41288044D900DFF6C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		32D3FD422880714500DFF6C3 /* ResultVievControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultVievControllerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,7 @@
 		32D3FD2B28803F1700DFF6C3 /* tipCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				32D3FD422880714500DFF6C3 /* ResultVievControllerViewController.swift */,
 				32D3FD2C28803F1700DFF6C3 /* AppDelegate.swift */,
 				32D3FD2E28803F1700DFF6C3 /* SceneDelegate.swift */,
 				32D3FD3028803F1700DFF6C3 /* ViewController.swift */,
@@ -141,6 +145,7 @@
 				32D3FD3128803F1700DFF6C3 /* ViewController.swift in Sources */,
 				32D3FD2D28803F1700DFF6C3 /* AppDelegate.swift in Sources */,
 				32D3FD2F28803F1700DFF6C3 /* SceneDelegate.swift in Sources */,
+				32D3FD432880714500DFF6C3 /* ResultVievControllerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +156,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				32D3FD3328803F1700DFF6C3 /* Base */,
+				32D3FD41288044D900DFF6C3 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
