@@ -1,5 +1,5 @@
 <div>
 <h1>Calculator that will help you calculate tips in the company</>
  </div>
- <img src="https://sun9-east.userapi.com/sun9-57/s/v1/if2/XVwbBzcpEjFH1ap6L-GBmsw0u8RkH1iNWuZkx7k94BHVcAXgZJ_nqp6qDdlVzFJQhpzkadsN2AKv89MLqnliftxU.jpg?size=828x1792&quality=96&type=album" height="500" align="center"/>
-<img src="https://sun9-north.userapi.com/sun9-86/s/v1/if2/5ljoqU73mlDSd-y8qeEsG8wfMm2HC5TyKZ7n-Ztcno7l-MI7y_G3Wwhrd17FvqjYO71lfwgHkVOVbuScjHHgLTXA.jpg?size=828x1792&quality=96&type=album" height="500" align="center"/>
+ <img src="https://sun9-north.userapi.com/sun9-81/s/v1/if2/QJ6vcCowBMdZ0YWpvZNALMSAUI8rUj5L1Ytujp5JtzhjwMkkNoMJmcupd2VVAhjKUpRwae9e8KYOWQWwIRF17_wH.jpg?size=828x1792&quality=96&type=album" height="500" align="center"/>
+<img src="https://sun9-east.userapi.com/sun9-34/s/v1/if2/9FKjqA7495aWjCDJB8a_pWQVh9ZRcdKgYMaag5q3EP5nzcr5YoT-v9mQI41XqIOXWTxAeMb0n8TjW2GZfjawr8mS.jpg?size=828x1792&quality=96&type=album" height="500" align="center"/>
