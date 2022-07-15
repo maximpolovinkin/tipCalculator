@@ -14,16 +14,18 @@ class ResultVievControllerViewController: UIViewController {
     
     var resLabelTitle = ""
     
-    @IBAction func recalculatePressed(_ sender: UIButton) {
-        self.dismiss(animated: true, completion: nil)
-    }
+    
     override func viewDidLoad() {
+        print(resLabelTitle)
         super.viewDidLoad()
         resultLabel.text = resLabelTitle
         recalcButton.layer.cornerRadius = 20
+    
     }
     
-
+    @IBAction func recalculatePressed(_ sender: UIButton) {
+        self.dismiss(animated: true, completion: nil)
+    }
     /*
     // MARK: - Navigation
 

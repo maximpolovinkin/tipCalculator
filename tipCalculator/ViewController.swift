@@ -7,6 +7,7 @@
 
 import UIKit
 
+
 class ViewController: UIViewController {
     
     @IBOutlet weak var twentyProcentButton: UIButton!
@@ -26,7 +27,9 @@ class ViewController: UIViewController {
         twentyProcentButton.isSelected = false
         tenProcentButton.isSelected = false
         zeroProcentButton.isSelected = false
-    
+        let a = totalText.text
+        totalText.endEditing(true)
+        totalText.text = a
         sender.isSelected = true
         
         let title =  String(sender.titleLabel!.text!)
@@ -37,8 +40,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func textClicked(_ sender: UITextField) {
-        sender.becomeFirstResponder()
-        sender.keyboardType = UIKeyboardType.numberPad
+        print("hiu")
+    
     }
     
     @IBAction func stepperChanged(_ sender: UIStepper) {
@@ -48,8 +51,8 @@ class ViewController: UIViewController {
     
     
     @IBAction func calcPressed(_ sender: UIButton) {
-      let result =  String(Double(totalText.text!)! * (1+self.tip) / Double(self.friendsCounter))
-        performSegue(withIdentifier: "goResult", sender: self)
+        let result =  String((Double(totalText.text!)! * (1+self.tip) / Double(self.friendsCounter)).rounded(.toNearestOrAwayFromZero))
+       
        billTotal = result
     }
     
@@ -62,15 +65,22 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         compliteButton.layer.cornerRadius = 20
         totalText.borderStyle = UITextField.BorderStyle.none
+     
+      totalText.keyboardType = UIKeyboardType.decimalPad
     }
 
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "goResult"{
+       
             let destinationVC = segue.destination as! ResultVievControllerViewController
             destinationVC.resLabelTitle = billTotal
-        }
+            print(billTotal)
+        
     }
-   
+    
+    @IBAction func tap(_ sender: Any) {
+        totalText.resignFirstResponder()
+    }
     
     
 }
